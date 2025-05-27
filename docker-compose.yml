@@ -1,8 +1,10 @@
-version: '3'
+version: "3"
 services:
   mongo:
     image: mongo
     volumes:
       - ./data:/data/db
     ports:
-      - '27017:27017'
+      - "27017:27017"
+# docker container run -dti --name mongo-alura -p 27017:27017   -e MONGO_INITDB_ROOT_USERNAME=admin
+# -e MONGO_INITDB_ROOT_PASSWORD=admin   -v mongo-alura:/data/db   mongo:7.0
