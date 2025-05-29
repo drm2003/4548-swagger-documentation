@@ -21,3 +21,12 @@
 ## Definição da Estrutura do Arquivo swagger.json
 
 - No arquivo swagger.json, especificamos que estamos usando o padrão 3.0 da OpenAPI. Se houver algo no trabalho que utilize uma versão diferente, o arquivo mudará. Para documentações novas, recomenda-se usar a versão mais recente, 3.0. Podemos dar um título à documentação, que será atualizado automaticamente. Assim, deixamos o arquivo pronto, realizando poucas alterações.
+
+
+
+
+
+## Há a estrutura openai
+
+- npm install swagger-jsdoc
+- npm install @types/swagger-jsdoc --save-dev
