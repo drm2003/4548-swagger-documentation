@@ -1,5 +1,9 @@
 # AULA 01
 
+## Documentação oficial
+- https://swagger.io/docs/open-source-tools/swagger-ui/customization/overview/
+  
+
 ## Instalação do Swagger
 
 - Habilitar o Swagger na aplicação. A partir do terminal, vamos instalar o Swagger com o comando npm install swagger-ui-express.
@@ -30,3 +34,7 @@
 
 - npm install swagger-jsdoc
 - npm install @types/swagger-jsdoc --save-dev
+
+
+Além de escrever uma documentação no formato JSON podemos também utilizar uma estrutura de arquivo YAML. Fique à vontade para utilizar a que melhor atender às suas necessidades, mas lembre-se de se atentar à versão de OpenAPI que irá utilizar, pois, como mencionado, existem diferenças na estrutura quando estamos falando da versão 3.0 ou da 2.0.
+
